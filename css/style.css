@@ -1,0 +1,106 @@
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.7rem;  /*can also be 90px or 5.7em as 16px = 100% = 1 em */ 
+    /* if the parent of h1, i.e., body hs a text size of x em or x %, it will be added to the size of h1*/
+    /*thats why css3 has rem, root em, to null any parent text size being added*/
+    color: #DBE6FD;
+}
+.First-h2{
+    font-size: 1.6rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    font-weight: normal;
+    margin-top: 0;
+    color: #DBE6FD;
+}
+.other{
+    color: #DBE6FD;
+
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #DBE6FD;
+
+}
+hr {
+    border-style: dotted none none none;
+    border-color: whitesmoke;
+    border-width: 10px;
+    height: 0px;
+    width: 15%;
+}
+
+body{
+    background-color:#293B5F ;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container{
+    background-color: #293B5F;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.profile{
+    padding-top: 30px;
+}
+.bio{
+    line-height: 2;
+}
+.skill-row{
+    font-size: 1rem;
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.android{
+    float: left;
+    margin-right: 30px;
+}
+.web{
+    float: right;
+    margin-left: 30px;
+}
+.cpp{
+    float: left;
+    margin-right: 30px;
+}
+
+.middle-container{
+    background-color:#293B5F;
+}
+
+.bottom-container{
+    background-color: #293B5F;
+    margin: 0;
+}
+
+.btn{
+    color: #DBE6FD;
+}
+
+
